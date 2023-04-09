@@ -74,10 +74,20 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["FixCursorHold.nvim"] = {
+    loaded = true,
+    path = "/home/abdelkrim/.local/share/nvim/site/pack/packer/start/FixCursorHold.nvim",
+    url = "https://github.com/antoinemadec/FixCursorHold.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/home/abdelkrim/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  catppuccin = {
+    loaded = true,
+    path = "/home/abdelkrim/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
@@ -124,6 +134,21 @@ _G.packer_plugins = {
     path = "/home/abdelkrim/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  neotest = {
+    loaded = true,
+    path = "/home/abdelkrim/.local/share/nvim/site/pack/packer/start/neotest",
+    url = "https://github.com/nvim-neotest/neotest"
+  },
+  ["neotest-dart"] = {
+    loaded = true,
+    path = "/home/abdelkrim/.local/share/nvim/site/pack/packer/start/neotest-dart",
+    url = "/home/abdelkrim/projects/nvim-plugins/neotest-dart"
+  },
+  ["neotest-dotnet"] = {
+    loaded = true,
+    path = "/home/abdelkrim/.local/share/nvim/site/pack/packer/start/neotest-dotnet",
+    url = "https://github.com/Issafalcon/neotest-dotnet"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/abdelkrim/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -159,6 +184,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/abdelkrim/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/home/abdelkrim/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 

@@ -44,4 +44,23 @@ return require('packer').startup(function(use)
 		}
 	}
 
+    -- catpuccin
+    use { "catppuccin/nvim", as = "catppuccin" }
+
+    use { "christoomey/vim-tmux-navigator" }
+
+    --use { "vim-test/vim-test" }
+
+    use {
+      "nvim-neotest/neotest",
+      requires = {
+        "nvim-lua/plenary.nvim",
+        "nvim-treesitter/nvim-treesitter",
+        "antoinemadec/FixCursorHold.nvim",
+        "Issafalcon/neotest-dotnet",
+        "/home/abdelkrim/projects/nvim-plugins/neotest-dart"
+      }
+    }
+
+
 end)
